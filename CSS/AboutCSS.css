@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Colouring for page background*/
+#gradiant{
+	background: #06F; 
+	background: linear-gradient(45deg, #60F,#69F);
+}
+
+/*Centering of Nav bar*/
+#header{
+	text-align:center;
+}
+
+/*Centering of photo*/
+img{
+	margin-top:20px;
+	margin-right:auto;
+	margin-bottom:20px;
+	margin-left:auto;
+	display:block;
+	text-align:center;
+	border-radius:60px;
+}
+
+/*Centering of Copyright text*/
+footer{
+	text-align:center;
+}
+
+/*Controls for Nav bar*/
+a{
+	color: #C09;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #C9F;
+}
+

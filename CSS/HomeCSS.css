@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Sets the colour for the page*/
+#gradiant{
+	background: #06F; 
+	background: linear-gradient(45deg, #60F,#69F);
+}
+
+/*Positions the logo*/
+#logo{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 200px;
+}
+
+/*Positions Nav bar*/
+#header{
+	font: Arial, Helvetica, sans-serif;
+	position: absolute;
+	margin-top: 225px;
+	margin-left: 425px;
+}
+
+/*Sets the colours of the nav bar normally and on hover*/
+a{
+	color: #C09;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #C9F;
+}
+
+/*Sets the position of the divs*/
+#welcome{
+	font: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: white;
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 350px;
+	width: 650px;
+}
+
+#tagline{
+	font:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color: white;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 475px;
+	width: 650px;
+}
+#mission{
+	font:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color: white;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 600px;
+	width: 650px;
+}
+
+#slideshow{
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 750px;
+	width: 450px;
+}
+
+#connected{
+	color: white;
+	position: absolute;
+	margin-top: 930px;
+	margin-left: 900px;
+}
+
+/*Sets up a space between the LinkedIn and Facebook logos*/ 
+img.left{
+	margin-right: 10px;
+}
+
+/*Positions the footer*/
+footer{
+	position: absolute;
+	margin-top: 1150px;
+	margin-left: 450px;
+}

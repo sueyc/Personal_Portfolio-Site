@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Sets colour for the background*/
+#gradiant{
+	background: #06F; 
+	background: linear-gradient(45deg, #60F,#69F);
+}
+
+/*Centres the navigation bar*/
+#header{
+	text-align:center;
+}
+
+/*Sets controls for nav bar*/
+a{
+	color: #C09;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #C9F;
+}
+
+/*Sets margins for service1 div*/
+#service1{
+	margin-top: 100px;
+	margin-left: 375px;
+	margin-right:375px;
+}
+
+/*Sets margins for service2 div*/
+#service2{
+	margin-top: 50px;
+	margin-left: 375px;
+	margin-right: 350px;
+}
+
+/*Makes a space between two pictures in Service2 div*/
+img.left{
+	margin-right: 30px;
+}
+
+/*Centres text in footer*/
+footer{
+	text-align: center;
+}
+
+

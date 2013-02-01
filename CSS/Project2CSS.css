@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Sets colour for the background*/
+#gradiant{
+	background: #06F; 
+	background: linear-gradient(45deg, #60F,#69F);
+}
+
+/*Sets margins for project div*/
+#project2{
+	margin-top: 75px;;
+	margin-left: 375px;
+	margin-right: 375px;
+}
+
+#directions{
+	margin-top: 50px;
+	margin-left: 375px;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #C9F;
+}
+
+/*Centres the footer text*/
+footer{
+	text-align: center;
+}
+

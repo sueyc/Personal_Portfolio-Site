@@ -4,7 +4,7 @@
 /*Sets the colour for the page*/
 #gradiant{
 	background: #06F; 
-	background: linear-gradient(45deg, #60F,#69F);
+	
 }
 
 /*Positions the logo*/
@@ -83,7 +83,7 @@ img.left{
 }
 
 /*Positions the footer*/
-footer{
+#footer{
 	position: absolute;
 	margin-top: 1150px;
 	margin-left: 450px;

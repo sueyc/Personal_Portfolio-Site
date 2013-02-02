@@ -2,9 +2,8 @@
 /* CSS Document */
 
 /*Sets colour for the background*/
-#gradiant{
+body{
 	background: #06F; 
-	background: linear-gradient(45deg, #60F,#69F);
 }
 
 /*Sets margins for project div*/

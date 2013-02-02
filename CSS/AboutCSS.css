@@ -2,9 +2,8 @@
 /* CSS Document */
 
 /*Colouring for page background*/
-#gradiant{
+body{
 	background: #06F; 
-	background: linear-gradient(45deg, #60F,#69F);
 }
 
 /*Centering of Nav bar*/

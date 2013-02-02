@@ -2,8 +2,6 @@
 /* CSS Document */
 
 
-
-
 /*Sets colour for the background*/
 body{
 	background: #06F; 
@@ -11,8 +9,8 @@ body{
 }
 
 /*Sets margins for project div*/
-#project1{
-	margin-top: 75px;;
+#slider3{
+	margin-top: 125px;
 	margin-left: 375px;
 	margin-right: 375px;
 }
@@ -31,7 +29,9 @@ a:hover {
 	color: #C9F;
 }
 
+/*Centres the footer text*/
 #footer{
 	text-align: center;
 }
+
 

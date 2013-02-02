@@ -10,7 +10,7 @@ body{
 
 /*Sets margins for project div*/
 #slider2{
-	margin-top: 125px;;
+	margin-top: 125px;
 	margin-left: 375px;
 	margin-right: 375px;
 }
@@ -30,7 +30,7 @@ a:hover {
 }
 
 /*Centres the footer text*/
-footer{
+#footer{
 	text-align: center;
 }
 

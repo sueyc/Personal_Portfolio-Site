@@ -8,3 +8,7 @@ img.first{
 img.second{
 	margin-left: 90px;
 }
+
+img.left{
+	margin-right: 10px;
+}

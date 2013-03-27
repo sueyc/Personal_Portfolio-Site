@@ -6,8 +6,25 @@
 <head>
 <meta charset="utf-8">
 <title>Home - Susan</title>
+<link href='http://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
 <link rel="stylesheet"
  href="CSS/HomeCSS.css" />
+
+<link rel="stylesheet" href="CSS/flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script src="JavaScript/jquery.flexslider.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+<script type="text/javascript">
+<!--
+if (screen.width <= 700) {
+window.location = "http://m.silverliningdesignandprogramming.com";
+}
+//-->
+</script>
 </head>
 
 <body>
@@ -24,16 +41,28 @@
 </div>
 <!--divs for the page-->
 <div id="welcome">
-<p>Welcome to Susan Corbin Design and Programming. This is a website intended to introduce you to the work completed and the services available by Susan Corbin Design and Programming.</p>
+<p>Welcome to Silver Lining Design and Programming. This is a website intended to introduce you to the work completed and the services available by Silver Lining Design and Programming.</p>
 </div>
 <div id="tagline">
-<p>Susan Corbin Design and Programming provides services including website design and production, mainframe programming, animation services and project management.  All services are provided in a professional and timely manner with an eye on customer satisfaction in everything I do.</p>
+<p>Silver Lining Design and Programming provides services including website design and production, mainframe programming, animation services and project management.  All services are provided in a professional and timely manner with an eye on customer satisfaction in everything I do.</p>
 </div>
 <div id="mission">
 <p>I have always had an interest in computers and how they work.  To be able to work with computers for a living is very exciting to me.  Providing good quality service is important to me because in business today it can be sadly lacking. A happy customer is the best result you can possibly have after completing a project and having that keeps me working as hard as I possibly can.</p>
 </div>
-<div id="slideshow">
-<a href="Slider1.html"><img src="Images/Scott.jpg" alt="Website Page" width="450" height="300"/></a>
+<div id="slider">
+<div class="flexslider">
+  	<ul class="slides">
+    	<li>
+      		<a href="Slider1.html"><img src="Images/Scott.jpg" alt= "Aerial Photography Website" width="600" height="400"/></a>
+    	</li>
+   		<li>
+      		<a href="Slider2.html"><img src="Images/Project.jpg" alt= "Project Management Assignment" width="600" height="400" /></a>
+    	</li>
+    	<li>
+      		<a href="Slider3.html"><img src="Images/COBOL.jpg" alt= "COBOL Assignment" width="600" height="400"/> </a>
+    	</li>
+  	</ul>
+</div>
 </div>
 <div id="connected">
 <h3>Follow me on:</h3>
@@ -41,7 +70,7 @@
 </div>
 <!--Page footer-->
 <div id="footer">
-&copy; Copyright Susan Corbin Design and Programming 2013
+&copy; Copyright Silver Lining Design and Programming 2013
 </div>
 </article>
 </body>

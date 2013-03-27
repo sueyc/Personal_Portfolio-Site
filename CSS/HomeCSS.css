@@ -30,7 +30,7 @@ a{
 }
 
 a:hover{
-	color: #C9F;
+	color: #C9F
 }
 
 /*Sets the position of the divs*/
@@ -63,18 +63,18 @@ a:hover{
 	width: 650px;
 }
 
-#slideshow{
-	position: absolute;
+#slider{
+	position: absolute; 
 	margin-left: 350px;
 	margin-top: 750px;
-	width: 450px;
+	width: 600px;
 }
 
 #connected{
 	color: white;
 	position: absolute;
 	margin-top: 930px;
-	margin-left: 900px;
+	margin-left: 1050px;
 }
 
 /*Sets up a space between the LinkedIn and Facebook logos*/ 
@@ -85,6 +85,6 @@ img.left{
 /*Positions the footer*/
 #footer{
 	position: absolute;
-	margin-top: 1150px;
+	margin-top: 1300px;
 	margin-left: 450px;
 }

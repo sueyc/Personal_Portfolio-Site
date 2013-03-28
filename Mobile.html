@@ -1,3 +1,7 @@
+<!--Mobile Website
+    Susan Corbin
+    silverliningdesignandprogramming.com
+    Main website page-->
 <!doctype html>
 <html>
 <head>
@@ -5,12 +9,11 @@
 <title>Mobile Website</title>
 
 <meta name = "viewport" content = "width=device-width, height=device-height, initial-scale=1">
-<link rel="stylesheet" href="CSS/themes/Susan.min.css" />
 <link href='http://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
 <link rel="stylesheet"
  href="CSS/MobileCSS.css" />
-<script type="text/javascript" src="JavaScript/detectmobilebrowser.js"></script>
-<!--<script src="detectmobilebrowser.js"></script>-->
+<!--<script type= "text/javascript" src="JavaScript/detectmobilebrowser.js.txt"></script>-->
+<link rel="stylesheet" href="CSS/themes/Susan.min.css" />
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
 <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script> 
@@ -28,24 +31,28 @@
 </head>
 
 <body>
+<!--Home Page-->
 <div data-role="page" id="Home">
-	<div data-role="header">
+	<!--Header with Company Logo-->
+    <div data-role="header">
 		<img src="Images/Logo1.jpg" alt="Company Logo" width="150" height="150" class="first"/>
     </div>
+    <!--Navigation Bar-->
 	<div data-role="navbar" data-iconpos="top">	
 		<ul>	
-            <li><a href="#Home" data-icon="home"  data-theme="a">Home</a></li>
-            <li><a href="#About" data-icon="info" data-theme="a">About</a></li>
-			<li><a href="#Contact" data-icon="search" data-theme="a">Contact</a></li>
+            <li><a href="#Home" data-icon="home" >Home</a></li>
+            <li><a href="#About" data-icon="info" >About</a></li>
+			<li><a href="#Contact" data-icon="search" >Contact</a></li>
         </ul>
     </div>		
 	<div data-role="navbar" data-iconpos="top">	
 		<ul>
-    		<li><a href="#Projects" data-icon= "info" data-theme="a">Projects</a></li>
-            <li><a href="#Services" data-icon= "info" data-theme="a">Services</a></li>
+    		<li><a href="#Projects" data-icon= "info" >Projects</a></li>
+            <li><a href="#Services" data-icon= "info" >Services</a></li>
         </ul>
     </div>
-	<div data-role="content">	
+	<!--Slider-->
+    <div data-role="content">	
 		<div class="flexslider">
   			<ul class="slides">
     			<li>
@@ -59,34 +66,40 @@
     			</li>
   			</ul>
 		</div>
-		<a href="http://www.silverliningdesignandprogramming.com/home.html?full" data-role="button" data-theme="a"> View full         Website </a>
+		<!--Button to send viewer to main website-->
+        <a href="http://www.silverliningdesignandprogramming.com/home.html?full" data-role="button" > View full         Website </a>
          
 	</div>
+    <!--Page Footer-->
     <div data-role="footer" >
 		<h4>&copy; Copyright Silver Lining</h4>
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
 
+<!--About Me Page-->
 <div data-role="page" id="About">
 	<div data-role="header">
 		<img src="Images/SusanCorbin.jpg" alt="Susan Corbin" width="125" height="125" class="second"/>
         <h1>About Me</h1>
 	</div>
+    <!--Navigation Bar-->
 	<div data-role="navbar" data-iconpos="top">	
 		<ul>	
-            <li><a href="#Home" data-icon="home" data-theme="a">Home</a></li>
-            <li><a href="#About" data-icon="info" data-theme="a">About</a></li>
-			<li><a href="#Contact" data-icon="search" data-theme="a">Contact</a></li>
+            <li><a href="#Home" data-icon="home" >Home</a></li>
+            <li><a href="#About" data-icon="info" >About</a></li>
+			<li><a href="#Contact" data-icon="search" >Contact</a></li>
         </ul>		
 	</div>
     <div data-role="navbar" data-iconpos="top">	
 		<ul>
-    		<li><a href="#Projects" data-icon= "info" data-theme="a">Projects</a></li>
-            <li><a href="#Services" data-icon= "info" data-theme="a">Services</a></li>
+    		<li><a href="#Projects" data-icon= "info" >Projects</a></li>
+            <li><a href="#Services" data-icon= "info" >Services</a></li>
         </ul>
-        <a href="#Home" data-role="button" data-theme="a">Back to Home Page</a>
+        <!--Button to return to Home Page-->
+        <a href="#Home" data-role="button" >Back to Home Page</a>
     </div>
+    <!--Main body of page-->
     <div data-role="content">	
 		<p>Silver Lining Design and Programming, owned and operated by Susan Corbin, provides services including website design           and production, mainframe programming, animation services and project management.  All services are provided in a           professional and timely manner with an eye on customer satisfaction in everything I do.</p>
         <p>I have always had an interest in computers and how they work.  To be able to work with computers for a living is very 			           exciting to me.  Providing good quality service is important to me because in business today it can be sadly lacking. A           happy customer is the best result you can possibly have after completing a project and having that keeps me working as           hard as I possibly can.</p>
@@ -105,30 +118,35 @@
        </ul>
        <p>After many years in the business world and ten years as a real estate agent, I returned to school in 2010 to pursue a          new career in Computer Programming.  It has been a challenging and exhilirating experience which I am enjoying          immensely. 	
 	</div>
+    <!--Page Footer-->
 	<div data-role="footer" >
 		<h4>&copy; Copyright Silver Lining</h4>
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
 
+<!--Contact Me Page-->
 <div data-role="page" id="Contact">
 	<div data-role="header">
 		<h1>Contact Me</h1>
 	</div>
+    <!--Navigation Bar-->
     <div data-role="navbar" data-iconpos="top">	
 		<ul>	
-            <li><a href="#Home" data-icon="home" data-theme="a">Home</a></li>
-            <li><a href="#About" data-icon="info" data-theme="a">About</a></li>
-			<li><a href="#Contact" data-icon="search" data-theme="a">Contact</a></li>
+            <li><a href="#Home" data-icon="home" >Home</a></li>
+            <li><a href="#About" data-icon="info" >About</a></li>
+			<li><a href="#Contact" data-icon="search" >Contact</a></li>
         </ul>		
 	</div>
     <div data-role="navbar" data-iconpos="top">	
 		<ul>
-        	<li><a href="#Projects" data-icon= "info" data-theme="a">Projects</a></li>
-            <li><a href="#Services" data-icon= "info" data-theme="a">Services</a></li>
+        	<li><a href="#Projects" data-icon= "info" >Projects</a></li>
+            <li><a href="#Services" data-icon= "info" >Services</a></li>
         </ul>
-        <a href="#Home" data-role="button" data-theme="a">Back to Home Page</a>
+        <!--Button to return to Home Page-->
+        <a href="#Home" data-role="button" >Back to Home Page</a>
     </div>
+    <!--Main body of page-->
 	<div data-role="content">	
 		<p>For further information or to ask for a quotation please feel free to contact me.  You will be pleased with my pricing           and the excellent service that I provide.</p>
         <p>1970 Champlain Road,<br>
@@ -142,60 +160,70 @@
         </a>      
         <a href="http://m.facebook.com/susan.corbin.714"><img src="Images/Facebook.jpg" alt="Facebook" width="50" height="50"        class="right"/></a>	
 	</div>
+    <!--Page Footer-->
 	<div data-role="footer" >
 		<h4>&copy; Copyright Silver Lining</h4>
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
 
+<!--Projects Page-->
 <div data-role="page" id="Projects">
 	<div data-role="header">
 		<h1>Projects</h1>
 	</div>
+    <!--Navigation Bar-->
     <div data-role="navbar" data-iconpos="top">	
 		<ul>	
-            <li><a href="#Home" data-icon="home" data-theme="a">Home</a></li>
-            <li><a href="#About" data-icon="info" data-theme="a">About</a></li>
-			<li><a href="#Contact" data-icon="search" data-theme="a">Contact</a></li>
+            <li><a href="#Home" data-icon="home" >Home</a></li>
+            <li><a href="#About" data-icon="info" >About</a></li>
+			<li><a href="#Contact" data-icon="search" >Contact</a></li>
         </ul>		
 	</div>
 	<div data-role="navbar" data-iconpos="top">	
 		<ul>
-        	<li><a href="#Projects" data-icon= "info" data-theme="a">Projects</a></li>
-            <li><a href="#Services" data-icon= "info" data-theme="a">Services</a></li>
+        	<li><a href="#Projects" data-icon= "info" >Projects</a></li>
+            <li><a href="#Services" data-icon= "info" >Services</a></li>
         </ul>
-        <a href="#Home" data-role="button" data-theme="a">Back to Home Page</a>
+        <!--Button to return to Home Page-->
+        <a href="#Home" data-role="button" >Back to Home Page</a>
     </div>
+    <!--Body of the page-->
     <div data-role="content">	
 		<h3>Click on any of the following pictures to see details of these projects.</h3>
         <p><a href="#Project1"> <img src="Images/Evan.jpg" alt="Restaurant Website" width="300" height="200" /></a></p>
         <p><a href="#Project2"> <img src="Images/Balls.jpg" alt="Bouncing Balls" width="300" height="247" /></a></p>
         <p><a href="#Project3"> <img src="Images/Java.jpg" alt="Java Program" width="300" height="316" /></a></p>		
 	</div>
+    <!--Page Footer-->
 	<div data-role="footer"> 
 		<h4>&copy; Copyright Silver Lining</h4>
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
 
+<!--Services Page-->
 <div data-role="page" id="Services">
 	<div data-role="header">
 		<h1>Services</h1>
 	</div>
+    <!--Navigation Bar-->
     <div data-role="navbar" data-iconpos="top">	
 		<ul>	
-            <li><a href="#Home" data-icon="home" data-theme="a">Home</a></li>
-            <li><a href="#About" data-icon="info" data-theme="a">About</a></li>
-			<li><a href="#Contact" data-icon="search" data-theme="a">Contact</a></li>
+            <li><a href="#Home" data-icon="home" >Home</a></li>
+            <li><a href="#About" data-icon="info" >About</a></li>
+			<li><a href="#Contact" data-icon="search" >Contact</a></li>
         </ul>		
 	</div>
 	<div data-role="navbar" data-iconpos="top">	
 		<ul>
-        	<li><a href="#Projects" data-icon= "info" data-theme="a">Projects</a></li>
-            <li><a href="#Services" data-icon= "info" data-theme="a">Services</a></li>
+        	<li><a href="#Projects" data-icon= "info" >Projects</a></li>
+            <li><a href="#Services" data-icon= "info" >Services</a></li>
         </ul>
-        <a href="#Home" data-role="button" data-theme="a">Back to Home Page</a>
+        <!--Button to return to Home Page-->
+        <a href="#Home" data-role="button" >Back to Home Page</a>
     </div>
+    <!--Main body of the page-->
     <div data-role="content">	
 		<img src="Images/Scott2.jpg" alt="Residential Section of Website" width="300" height="164" />
         <p>I have completed several websites for clients in the Toronto area.  They range from aerial photographers to restaurants           and even a culinary school.  My work on these websites included copywriting and logo design.</p>
@@ -203,140 +231,118 @@
         <p><img src="Images/COBOL2.jpg" alt="COBOL Program" width="275" height="305" /></p>
         <p>With my training at Georgian College I would fit into an organization as an entry level mainframe programmer using my           skills in COBOL and Java.</p>	
 	</div>
+    <!--Page Footer-->
 	<div data-role="footer" >
 		<h4>&copy; Copyright Silver Lining</h4>
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
 
+<!--Project1 Page-->
 <div data-role="page" id="Project1">
 	<div data-role="header">
 		<h1>Project 1</h1>
 	</div>
-    
+    <!--Main body of the page-->
     <div data-role="content">	
 		<p><img src="Images/Evan.jpg" alt="Restaurant Website" width="300" height="200" /></p>
         <p>This was a website designed for a new restaurant in Richmond Hill, Ontario.  It entailed 5 pages with a 6 photo           slideshow on the first page and multiple pictures mixed in with text on the menu page. The text and photos were laid           over a blue tiled, textured background to give it some depth.</p>	
-	    <a href="#Projects" data-role="button" data-theme="a">Back to Projects Page</a>
+	    <!--Button to return to Projects Page-->
+        <a href="#Projects" data-role="button" >Back to Projects Page</a>
     </div>
+    <!--Page Footer-->
 	<div data-role="footer" >
 		<h4>&copy; Copyright Silver Lining</h4>
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
 
+<!--Project2 Page-->
 <div data-role="page" id="Project2">
 	<div data-role="header">
 		<h1>Project 2</h1>
 	</div>
+    <!--Main body of the page-->
     <div data-role="content">	
 		<p><img src="Images/Balls.jpg" alt="Bouncing Balls" width="300" height="247" /></p>
         <p>This was a project completed for my Animation 2D Tools course at Georgian College.  It involved using Adobe Flash           Professional CS6 to produce a movie clip of 2 balls.  One was bouncing on the ground and had a shadow.  The other came           through the screen from the other direction in a wavy motion above the "floor" level.</p>		
-	    <a href="#Projects" data-role="button" data-theme="a">Back to Projects Page</a>
+	    <!--Button to return to Projects Page-->
+        <a href="#Projects" data-role="button" >Back to Projects Page</a>
     </div>
+    <!--Page Footer-->
 	<div data-role="footer" >
 		<h4>&copy; Copyright Silver Lining</h4>
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
 
+<!--Project3 Page-->
 <div data-role="page" id="Project3">
 	<div data-role="header">
 		<h1>Project 3</h1>
 	</div>
+    <!--Main body of the page-->
    	<div data-role="content">	
 		<p><img src="Images/Java.jpg" alt="Java Program" width="300" height="316" /></p>
         <p>This was a program written in my Introduction to Object Oriented Programming course at Georgian College.  It involved           designing a program for a ticket machine that issues tickets for a specific price.  It calculates the total amount           deposited, and runs a total amount taken in by the machine.  It then prints the ticket.</p>		
-	    <a href="#Projects" data-role="button" data-theme="a">Back to Projects Page</a>
+	    <!--Button to return to Projects Page-->
+        <a href="#Projects" data-role="button" >Back to Projects Page</a>
     </div>
+    <!--Page Footer-->
 	<div data-role="footer" >
 		<h4>&copy; Copyright Silver Lining</h4>
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
 
+<!--Slider1 Page-->
 <div data-role="page" id="Slider1">
-	<div data-role="content">	
+	<!--Main body of the page-->
+    <div data-role="content">	
 		<p><img src="Images/Scott.jpg" alt="Aerial Photography Website" width="300" height="200"/></p>
         <p>This was a website made for an aerial photographer based out of the GTA.  It involved 5 web pages, a slideshow on the           home page and approximately 60 photographs of homes and commercials properties divided between two web pages.  The           residential web page was divided into seasons as well as into repeat seasonal photographs of the same house and           pictorial histories of a single house taken over the course of many years and incarnations.  I was involved in writing           the text for the website, choosing the photos and all layout designs.</p>	
-	    <a href="#Home" data-role="button" data-theme="a">Back to Home Page</a>
+	    <!--Button to return to Home Page-->
+        <a href="#Home" data-role="button" >Back to Home Page</a>
     </div>
+    <!--Page Footer-->
 	<div data-role="footer" >
 		<h4>&copy; Copyright Silver Lining</h4>
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
 
+<!--Slider2 Page-->
 <div data-role="page" id="Slider2">
-	<div data-role="content">	
+	<!--Main body of the page-->
+    <div data-role="content">	
 		<p><img src="Images/Project.jpg" alt="Project Management Assignment" width="300" height="200"/></p>
         <p>This was a project management assignment completed where we had to follow the System Development Life Cycle (SDLC) of a           project from its inception to completion.  It involved the introduction of a new computer server into a company           replacing two antiquated servers in an office with approximately 30 employees.  The installation, testing and transfer           to the new server had to be completed without interuption of service to the employees.</p>		
-	    <a href="#Home" data-role="button" data-theme="a">Back to Home Page</a>
+	    <!--Button to return to Home Page-->
+        <a href="#Home" data-role="button" >Back to Home Page</a>
     </div>
+    <!--Page Footer-->
 	<div data-role="footer" >
 		<h4>&copy; Copyright Silver Lining</h4>
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
 
+<!--Slider3 Page-->
 <div data-role="page" id="Slider3">
-	<div data-role="content">	
+	<!--Main body of the page-->
+    <div data-role="content">	
 		<p><img src="Images/COBOL.jpg" alt="COBOL Assignment" width="300" height="200"/></p>
         <p>This was a program which calculated raises for employees in a company in 2 regions and 10 offices who had been with the           company over 10 years.  There were approximately 30 employees and about one third were in that category.  The program           also set up headings and used the current date as input by the user.</p>		
-	    <a href="#Home" data-role="button" data-theme="a">Back to Home Page</a>
+	    <!--Button to return to Home Page-->
+        <a href="#Home" data-role="button" >Back to Home Page</a>
     </div>
+    <!--Page Footer-->
 	<div data-role="footer" >
 		<h4>&copy; Copyright Silver Lining</h4>
         <h4>Design and Programming 2013</h4>
 	</div>
 </div>
 
-<div data-role="page" id="Services">
-	<div data-role="header">
-		<h1>Services</h1>
-	</div>
-    <div data-role="navbar" data-iconpos="top">	
-		<ul>	
-            <li><a href="#Home" data-icon="home" data-theme="b">Home</a></li>
-            <li><a href="#About" data-icon="info" data-theme="b">About</a></li>
-			<li><a href="#Contact" data-icon="search" data-theme="b">Contact</a></li>
-            <li><a href="#Projects" data-icon= "info" data-theme="b">Projects</a></li>
-            <li><a href="#Services" data-icon= "info" data-theme="b">Services</a></li>
-		</ul>		
-	</div>
-	<div data-role="content">	
-		Content		
-	</div>
-	<div data-role="footer" >
-		<h4>&copy; Copyright Susan Corbin Design and Programming 2013</h4>
-	</div>
-</div>
-
-<div data-role="page" id="Services">
-	<div data-role="header">
-		<h1>Services</h1>
-	</div>
-    <div data-role="navbar" data-iconpos="top">	
-		<ul>	
-            <li><a href="#Home" data-icon="home" data-theme="b">Home</a></li>
-            <li><a href="#About" data-icon="info" data-theme="b">About</a></li>
-			<li><a href="#Contact" data-icon="search" data-theme="b">Contact</a></li>
-            
-		</ul>		
-	</div>
-	<div data-role="navbar" data-iconpos="top">	
-		<ul>
-        	<li><a href="#Projects" data-icon= "info" data-theme="b">Projects</a></li>
-            <li><a href="#Services" data-icon= "info" data-theme="b">Services</a></li>
-        </ul>
-    </div>
-    <div data-role="content">	
-		Content		
-	</div>
-	<div data-role="footer" >
-		<h4>&copy; Copyright Silver Lining Design and Programming 2013</h4>
-	</div>
-</div>
 
 </body>
 </html>
